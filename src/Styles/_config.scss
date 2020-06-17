@@ -1,0 +1,9 @@
+$primary-color: #434343;
+$secondary-color: #eece1a;
+$font-color: white;
+$backgroung-img: url('../Assets/background.jpg');
+$profile-pic: url('../Assets/profile-pic.jpg');
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}

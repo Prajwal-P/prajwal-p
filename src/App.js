@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import SideNav from './components/SideNav';
-import './App.scss';
+import './Styles/App.scss';
 
 function App() {
 	return (
