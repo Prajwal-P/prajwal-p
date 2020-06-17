@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/prajwal-p/static/css/main.df24737b.chunk.css",
-    "main.js": "/prajwal-p/static/js/main.17ec31b5.chunk.js",
-    "main.js.map": "/prajwal-p/static/js/main.17ec31b5.chunk.js.map",
+    "main.js": "/prajwal-p/static/js/main.e7cd0e49.chunk.js",
+    "main.js.map": "/prajwal-p/static/js/main.e7cd0e49.chunk.js.map",
     "runtime-main.js": "/prajwal-p/static/js/runtime-main.79a8ab4d.js",
     "runtime-main.js.map": "/prajwal-p/static/js/runtime-main.79a8ab4d.js.map",
     "static/js/2.be749039.chunk.js": "/prajwal-p/static/js/2.be749039.chunk.js",
     "static/js/2.be749039.chunk.js.map": "/prajwal-p/static/js/2.be749039.chunk.js.map",
     "index.html": "/prajwal-p/index.html",
-    "precache-manifest.0cf0f2fb1439ab4d2565428c9b0ac880.js": "/prajwal-p/precache-manifest.0cf0f2fb1439ab4d2565428c9b0ac880.js",
+    "precache-manifest.d7dfb077fccfed488c2335500c0d7266.js": "/prajwal-p/precache-manifest.d7dfb077fccfed488c2335500c0d7266.js",
     "service-worker.js": "/prajwal-p/service-worker.js",
     "static/css/main.df24737b.chunk.css.map": "/prajwal-p/static/css/main.df24737b.chunk.css.map",
     "static/js/2.be749039.chunk.js.LICENSE.txt": "/prajwal-p/static/js/2.be749039.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.79a8ab4d.js",
     "static/js/2.be749039.chunk.js",
     "static/css/main.df24737b.chunk.css",
-    "static/js/main.17ec31b5.chunk.js"
+    "static/js/main.e7cd0e49.chunk.js"
   ]
 }
