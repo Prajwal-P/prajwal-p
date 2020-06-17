@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0aea7ca85b3ea6c2845aff03b512f821",
+    "revision": "3dee47ad17f1f2db682399cba2bfc45c",
     "url": "/prajwal-p/index.html"
   },
   {
-    "revision": "45d764aa12ec830b3813",
+    "revision": "2b6021ab9eb966233c36",
     "url": "/prajwal-p/static/css/main.df24737b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prajwal-p/static/js/2.be749039.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45d764aa12ec830b3813",
-    "url": "/prajwal-p/static/js/main.ef858838.chunk.js"
+    "revision": "2b6021ab9eb966233c36",
+    "url": "/prajwal-p/static/js/main.17ec31b5.chunk.js"
   },
   {
     "revision": "25ec332086ded1f431bb",
