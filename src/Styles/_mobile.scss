@@ -1,0 +1,35 @@
+@import './menu-btn';
+
+@include mediaSm{
+	@extend .menu-btn;
+	.side-nav{
+		// visibility: hidden;
+		position: fixed;
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@include mediaMd{
+	.side-nav{
+		// visibility: hidden;
+		position: fixed;
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@include mediaLg{
+	.side-nav{
+		position: fixed;
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+		// visibility: hidden;
+	}
+}
+
+@include mediaXl{
+	.menu-btn{
+		visibility: hidden;
+	}
+}
