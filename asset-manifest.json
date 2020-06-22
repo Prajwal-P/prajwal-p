@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prajwal-p/static/css/main.cfb568d0.chunk.css",
+    "main.css": "/prajwal-p/static/css/main.7bd43e9f.chunk.css",
     "main.js": "/prajwal-p/static/js/main.8a13707b.chunk.js",
     "main.js.map": "/prajwal-p/static/js/main.8a13707b.chunk.js.map",
     "runtime-main.js": "/prajwal-p/static/js/runtime-main.79a8ab4d.js",
@@ -8,9 +8,9 @@
     "static/js/2.9220a967.chunk.js": "/prajwal-p/static/js/2.9220a967.chunk.js",
     "static/js/2.9220a967.chunk.js.map": "/prajwal-p/static/js/2.9220a967.chunk.js.map",
     "index.html": "/prajwal-p/index.html",
-    "precache-manifest.494dd5da37ad9ce976909b781d3dc20c.js": "/prajwal-p/precache-manifest.494dd5da37ad9ce976909b781d3dc20c.js",
+    "precache-manifest.a5267e3c0ad63da5f7cd2417d7c11281.js": "/prajwal-p/precache-manifest.a5267e3c0ad63da5f7cd2417d7c11281.js",
     "service-worker.js": "/prajwal-p/service-worker.js",
-    "static/css/main.cfb568d0.chunk.css.map": "/prajwal-p/static/css/main.cfb568d0.chunk.css.map",
+    "static/css/main.7bd43e9f.chunk.css.map": "/prajwal-p/static/css/main.7bd43e9f.chunk.css.map",
     "static/js/2.9220a967.chunk.js.LICENSE.txt": "/prajwal-p/static/js/2.9220a967.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/prajwal-p/static/media/background.00051dbb.jpg",
     "static/media/profile-pic-2.jpg": "/prajwal-p/static/media/profile-pic-2.e968915b.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.79a8ab4d.js",
     "static/js/2.9220a967.chunk.js",
-    "static/css/main.cfb568d0.chunk.css",
+    "static/css/main.7bd43e9f.chunk.css",
     "static/js/main.8a13707b.chunk.js"
   ]
 }
