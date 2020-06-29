@@ -2,28 +2,13 @@
 	.app-wrapper{
 		.side-nav{
 			width: 100vw !important;
+			background-color: darken($primary-color, 5) !important;
 			
-			.profile{
-				// position: fixed;
-				@include easeOut;
-				transform: translate3d(0, -110%, 0);
-				
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
-			.menu-nav{
-				@include easeOut;
-				transform: translate3d(0, 100%, 0);
-
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
+			@include easeOut;
+			transform: translate3d(-100%, 0, 0);
+			
 			&.show{
-				z-index: 1;
+				transform: translate3d(0, 0, 0);
 			}
 		}
 
@@ -37,28 +22,13 @@
 	.app-wrapper{
 		.side-nav{
 			width: 100vw !important;
+			background-color: darken($primary-color, 5) !important;
+
+			@include easeOut;
+			transform: translate3d(-100%, 0, 0);
 			
-			.profile{
-				// position: fixed;
-				@include easeOut;
-				transform: translate3d(0, -110%, 0);
-				
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
-			.menu-nav{
-				@include easeOut;
-				transform: translate3d(0, 100%, 0);
-
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
 			&.show{
-				z-index: 1;
+				transform: translate3d(0, 0, 0);
 			}
 		}
 
@@ -72,28 +42,13 @@
 	.app-wrapper{
 		.side-nav{
 			width: 100vw !important;
+			background-color: darken($primary-color, 5) !important;
 			
-			.profile{
-				// position: fixed;
-				@include easeOut;
-				transform: translate3d(0, -110%, 0);
-				
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
-			.menu-nav{
-				@include easeOut;
-				transform: translate3d(0, 100%, 0);
-
-				&.show{
-					transform: translate3d(0, 0, 0);
-				}
-			}
-
+			@include easeOut;
+			transform: translate3d(-100%, 0, 0);
+			
 			&.show{
-				z-index: 1;
+				transform: translate3d(0, 0, 0);
 			}
 		}
 

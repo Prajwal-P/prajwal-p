@@ -1,0 +1,17 @@
+.card{
+	background-color: lighten($primary-color, 5);
+	padding: 1rem;
+	border-radius: 10px;
+	margin: 0.5rem;
+	display: inline-block;
+	border: 1px $secondary-color solid;
+
+	.clg-name{
+		display: inline-block;
+		font-weight: 500;
+		margin: 0 30px 10px 0;
+	}
+	.period{
+		display: inline-block;
+	}
+}

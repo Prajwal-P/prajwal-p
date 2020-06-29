@@ -48,12 +48,12 @@ class SideNav extends Component {
 			<React.Fragment>
 				<HashRouter basename='/'>
 					<div className='app-wrapper'>
+						<div className="menu-btn" onClick={this.showMenu}>
+							<div className="btn-line"></div>
+							<div className="btn-line"></div>
+							<div className="btn-line"></div>
+						</div>
 						<div className="side-nav">
-							<div className="menu-btn" onClick={this.showMenu}>
-								<div className="btn-line"></div>
-								<div className="btn-line"></div>
-								<div className="btn-line"></div>
-							</div>
 							<div className="profile">
 								<img alt='My Pic' src={profile_pic} />
 								<h1>Prajwal P</h1>
