@@ -1,65 +1,86 @@
 @include mediaSm{
-	.app-wrapper{
-		.side-nav{
-			width: 100vw !important;
-			background-color: darken($primary-color, 5) !important;
-			
-			@include easeOut;
-			transform: translate3d(-100%, 0, 0);
-			
-			&.show{
-				transform: translate3d(0, 0, 0);
-			}
+	.side-nav{
+		width: 100vw !important;
+		background-color: darken($primary-color, 5) !important;
+		position: fixed;
+		
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+		
+		&.show{
+			transform: translate3d(0, 0, 0);
 		}
 
-		.main{
-			margin-left: 0 !important;
+		.profile{
+			img{
+				width: 150px !important;
+			}
 		}
+	}
+
+	.main{
+		margin-left: 0 !important;
 	}
 }
 
 @include mediaMd{
-	.app-wrapper{
-		.side-nav{
-			width: 100vw !important;
-			background-color: darken($primary-color, 5) !important;
+	.side-nav{
+		width: 100vw !important;
+		background-color: darken($primary-color, 5) !important;
+		position: fixed;
+		
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+		
+		&.show{
+			transform: translate3d(0, 0, 0);
+		}
 
-			@include easeOut;
-			transform: translate3d(-100%, 0, 0);
-			
-			&.show{
-				transform: translate3d(0, 0, 0);
+		.profile{
+			img{
+				width: 150px !important;
 			}
 		}
+	}
 
-		.main{
-			margin-left: 0 !important;
-		}
+	.main{
+		margin-left: 0 !important;
 	}
 }
 
 @include mediaLg{
-	.app-wrapper{
-		.side-nav{
-			width: 100vw !important;
-			background-color: darken($primary-color, 5) !important;
-			
-			@include easeOut;
-			transform: translate3d(-100%, 0, 0);
-			
-			&.show{
-				transform: translate3d(0, 0, 0);
-			}
+	.side-nav{
+		width: 100vw !important;
+		background-color: darken($primary-color, 5) !important;
+		position: fixed;
+		
+		@include easeOut;
+		transform: translate3d(-100%, 0, 0);
+		
+		&.show{
+			transform: translate3d(0, 0, 0);
 		}
 
-		.main{
-			margin-left: 0 !important;
+		.profile{
+			img{
+				width: 150px !important;
+			}
 		}
+	}
+
+	.main{
+		margin-left: 0 !important;
 	}
 }
 
 @include mediaXl{
+	.nav-bar{
+		visibility: hidden;
+	}
 	.menu-btn{
 		visibility: hidden;
+	}
+	.main{
+		margin-top: 0 !important;
 	}
 }

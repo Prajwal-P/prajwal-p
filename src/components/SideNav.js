@@ -18,22 +18,22 @@ class SideNav extends Component {
 	showMenu = () => {
 		// console.log('Test')
 		const menuBtn = document.querySelector('.menu-btn');
-		const profile = document.querySelector('.profile');
-		const menuNav = document.querySelector('.menu-nav');
+		const navBar = document.querySelector('.nav-bar');
 		const sideNav = document.querySelector('.side-nav');
+		const main = document.querySelector('.main');
 
 		if(!this.state.showMenu){
 			menuBtn.classList.add('close');
-			profile.classList.add('show');
-			menuNav.classList.add('show');
+			navBar.classList.add('show');
 			sideNav.classList.add('show');
+			main.classList.add('no-scroll');
 			
 			this.setState({showMenu: true})
 		} else {
 			menuBtn.classList.remove('close');
-			profile.classList.remove('show');
-			menuNav.classList.remove('show');
+			navBar.classList.remove('show');
 			sideNav.classList.remove('show');
+			main.classList.remove('no-scroll');
 			
 			this.setState({showMenu: false})
 		}
@@ -47,55 +47,65 @@ class SideNav extends Component {
 		return (
 			<React.Fragment>
 				<HashRouter basename='/'>
-					<div className='app-wrapper'>
-						<div className="menu-btn" onClick={this.showMenu}>
-							<div className="btn-line"></div>
-							<div className="btn-line"></div>
-							<div className="btn-line"></div>
+					<div className='nav-bar'>
+						<h1>Prajwal P</h1>
+					</div>
+					<div className="menu-btn" onClick={this.showMenu}>
+						<div className="btn-line"></div>
+						<div className="btn-line"></div>
+						<div className="btn-line"></div>
+					</div>
+					<div className="side-nav">
+						<div className="profile">
+							<img alt='My Pic' src={profile_pic} />
+							<h1>Prajwal P</h1>
 						</div>
-						<div className="side-nav">
-							<div className="profile">
-								<img alt='My Pic' src={profile_pic} />
-								<h1>Prajwal P</h1>
+						<div className="menu-nav">
+							<RoutedTabs activeTabClassName='active' className='links' onClick={this.showMenu}>
+								<NavTab to='/home' className='link-item'>
+									<div><i className="fas fa-home"></i> Home</div>
+								</NavTab>
+								<NavTab to='/project' className='link-item'>
+									<div><i className="fas fa-briefcase"></i> Project</div>
+								</NavTab>
+								<NavTab to='/contact' className='link-item'>
+									<div><i className="far fa-envelope-open"></i> Contact</div>
+								</NavTab>
+								{/* <NavTab to='/contact1' className='link-item'>
+									<div><i className="far fa-envelope-open"></i> Contact 1</div>
+								</NavTab>
+								<NavTab to='/contact2' className='link-item'>
+									<div><i className="far fa-envelope-open"></i> Contact 2</div>
+								</NavTab>
+								<NavTab to='/contact3' className='link-item'>
+									<div><i className="far fa-envelope-open"></i> Contact 3</div>
+								</NavTab> */}
+							</RoutedTabs>
+							<div className="collection">
+								<a href='https://github.com/Prajwal-P' target='_blank' rel="noopener noreferrer">
+									<i className="fab fa-github fa-2x"></i>
+								</a>
+								<a href='https://www.linkedin.com/in/prajwal-p-21a9ba172/' target='_blank' rel="noopener noreferrer">
+									<i className="fab fa-linkedin-in fa-2x"></i>
+								</a>
+								<a href='https://www.hackerrank.com/prajwal72p' target='_blank' rel="noopener noreferrer">
+									<i className="fab fa-hackerrank fa-2x"></i>
+								</a>
+								<a href='https://www.youracclaim.com/users/prajwal/badges' target='_blank' rel="noopener noreferrer">
+									<i className="fas fa-medal fa-2x"></i>
+								</a>
 							</div>
-							<div className="menu-nav">
-								<RoutedTabs activeTabClassName='active' className='links' onClick={this.showMenu}>
-									<NavTab to='/home' className='link-item'>
-										<div><i className="fas fa-home"></i> Home</div>
-									</NavTab>
-									<NavTab to='/project' className='link-item'>
-										<div><i className="fas fa-briefcase"></i> Project</div>
-									</NavTab>
-									<NavTab to='/contact' className='link-item'>
-										<div><i className="far fa-envelope-open"></i> Contact</div>
-									</NavTab>
-								</RoutedTabs>
-								<div className="collection">
-									<a href='https://github.com/Prajwal-P' target='_blank' rel="noopener noreferrer">
-										<i className="fab fa-github fa-2x"></i>
-									</a>
-									<a href='https://www.linkedin.com/in/prajwal-p-21a9ba172/' target='_blank' rel="noopener noreferrer">
-										<i className="fab fa-linkedin-in fa-2x"></i>
-									</a>
-									<a href='https://www.hackerrank.com/prajwal72p' target='_blank' rel="noopener noreferrer">
-										<i className="fab fa-hackerrank fa-2x"></i>
-									</a>
-									<a href='https://www.youracclaim.com/users/prajwal/badges' target='_blank' rel="noopener noreferrer">
-										<i className="fas fa-medal fa-2x"></i>
-									</a>
-								</div>
-							</div>
 						</div>
-						<div className='main'>
-							<Switch>
-								<Route exact path='/home' component={Home} />
-								<Route path='/contact' component={Contact} />
-								<Route path='/project' component={Project} />
-								<Route>
-									<Redirect to='/home' />
-								</Route>
-							</Switch>
-						</div>
+					</div>
+					<div className='main'>
+						<Switch>
+							<Route exact path='/home' component={Home} />
+							<Route path='/contact' component={Contact} />
+							<Route path='/project' component={Project} />
+							<Route>
+								<Redirect to='/home' />
+							</Route>
+						</Switch>
 					</div>
 				</HashRouter>
 			</React.Fragment>

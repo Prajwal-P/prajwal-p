@@ -1,10 +1,10 @@
 .card{
-	background-color: lighten($primary-color, 5);
+	background-color: darken($primary-color, 3);
 	padding: 1rem;
 	border-radius: 10px;
 	margin: 0.5rem;
 	display: inline-block;
-	border: 1px $secondary-color solid;
+	// border: 1px $secondary-color solid;
 
 	.clg-name{
 		display: inline-block;

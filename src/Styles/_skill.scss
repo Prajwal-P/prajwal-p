@@ -6,4 +6,5 @@
 	border: 2px $secondary-color solid;
 	display: inline-block;
 	margin: 0.5rem;
+	background-color: lighten($primary-color, $amount: 5);
 }
