@@ -1,0 +1,40 @@
+.project-card{
+	background-color: darken($primary-color, 2);
+	padding: 0.5rem;
+	border-radius: 10px;
+	margin: 0.5rem;
+	display: inline-block;
+	width: 250px;
+	// height: 310px;
+	
+	img{
+		width: 100%;
+		height: 150px;
+		display: block;
+	}
+	.text{
+		text-align: center;
+		
+		.name{
+			margin: 0.5rem 0;
+			font-weight: bold;
+		}
+		.description{
+			width: 100%;
+		}
+		a{
+			text-decoration: none;
+			color: $font-color;
+			display: block;
+			line-height: 2rem;
+			width: 60%;
+			background-color: lighten($primary-color, 3);
+			margin: 1rem auto;
+
+			&:hover{
+				background-color: $secondary-color;
+				color: #000000;
+			}
+		}
+	}
+}

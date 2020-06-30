@@ -3,6 +3,7 @@
 @import './home';
 @import './card';
 @import './skill';
+@import './project';
 // @import './menu-btn';
 
 body {
@@ -35,7 +36,7 @@ h1{
 .nav-bar{
 	background-color: darken($primary-color, 5);
 	width: 100%;
-	line-height: 60px;
+	line-height: 54px;
 	// border-bottom: 2px $secondary-color solid;
 	position: fixed;
 	z-index: 1;
@@ -96,11 +97,11 @@ h1{
 }
 
 .side-nav {
-	height: 100vh;
+	height: 100%;
 	width: 300px;
 	background-color: rgba(darken($primary-color, 4), 0.7);
 	display: inline-block;
-	// position: fixed;
+	position: fixed;
 	// position: absolute;
 	color: $font-color;
 	z-index: 5;
