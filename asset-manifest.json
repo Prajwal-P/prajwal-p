@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prajwal-p/static/css/main.3747772f.chunk.css",
+    "main.css": "/prajwal-p/static/css/main.87feb3a4.chunk.css",
     "main.js": "/prajwal-p/static/js/main.4cddd114.chunk.js",
     "main.js.map": "/prajwal-p/static/js/main.4cddd114.chunk.js.map",
     "runtime-main.js": "/prajwal-p/static/js/runtime-main.79a8ab4d.js",
@@ -8,9 +8,9 @@
     "static/js/2.bf13b8c3.chunk.js": "/prajwal-p/static/js/2.bf13b8c3.chunk.js",
     "static/js/2.bf13b8c3.chunk.js.map": "/prajwal-p/static/js/2.bf13b8c3.chunk.js.map",
     "index.html": "/prajwal-p/index.html",
-    "precache-manifest.88c83e0c949ce0cc02e669f63734f34f.js": "/prajwal-p/precache-manifest.88c83e0c949ce0cc02e669f63734f34f.js",
+    "precache-manifest.917f4a67bc735498e5be09d5adf015a8.js": "/prajwal-p/precache-manifest.917f4a67bc735498e5be09d5adf015a8.js",
     "service-worker.js": "/prajwal-p/service-worker.js",
-    "static/css/main.3747772f.chunk.css.map": "/prajwal-p/static/css/main.3747772f.chunk.css.map",
+    "static/css/main.87feb3a4.chunk.css.map": "/prajwal-p/static/css/main.87feb3a4.chunk.css.map",
     "static/js/2.bf13b8c3.chunk.js.LICENSE.txt": "/prajwal-p/static/js/2.bf13b8c3.chunk.js.LICENSE.txt",
     "static/media/Airplane.png": "/prajwal-p/static/media/Airplane.af8628d0.png",
     "static/media/BloodBank.jpg": "/prajwal-p/static/media/BloodBank.ede8f5b1.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.79a8ab4d.js",
     "static/js/2.bf13b8c3.chunk.js",
-    "static/css/main.3747772f.chunk.css",
+    "static/css/main.87feb3a4.chunk.css",
     "static/js/main.4cddd114.chunk.js"
   ]
 }
