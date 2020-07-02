@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be74542637b2af59c30d63d8f59e614e",
+    "revision": "db9a308981930b718df565035c99f45b",
     "url": "/prajwal-p/index.html"
   },
   {
-    "revision": "5bf0689887df688b31dc",
-    "url": "/prajwal-p/static/css/main.608a5453.chunk.css"
+    "revision": "eb67db0673586cc729d3",
+    "url": "/prajwal-p/static/css/main.3747772f.chunk.css"
   },
   {
-    "revision": "56c61f1e09eff2b2cc64",
-    "url": "/prajwal-p/static/js/2.437948df.chunk.js"
+    "revision": "71abaa5908c05231e6d1",
+    "url": "/prajwal-p/static/js/2.bf13b8c3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/prajwal-p/static/js/2.437948df.chunk.js.LICENSE.txt"
+    "url": "/prajwal-p/static/js/2.bf13b8c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bf0689887df688b31dc",
-    "url": "/prajwal-p/static/js/main.7885ad96.chunk.js"
+    "revision": "eb67db0673586cc729d3",
+    "url": "/prajwal-p/static/js/main.4cddd114.chunk.js"
   },
   {
     "revision": "25ec332086ded1f431bb",
