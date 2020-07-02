@@ -4,7 +4,8 @@ import { RoutedTabs, NavTab } from "react-router-tabs";
 import Home from './Home';
 import Contact from './Contact';
 import Project from './Project';
-import profile_pic from '../Assets/profile-pic-2.jpg'
+import Resume from './Resume';
+import profile_pic from '../Assets/profile-pic.jpg'
 
 
 class SideNav extends Component {
@@ -68,17 +69,11 @@ class SideNav extends Component {
 								<NavTab to='/project' className='link-item'>
 									<div><i className="fas fa-briefcase"></i> Project</div>
 								</NavTab>
-								<NavTab to='/contact' className='link-item'>
+								<NavTab to='/resume' className='link-item'>
+									<div><i className="fas fa-file-alt"></i> Resume</div>
+								</NavTab>
+								{/* <NavTab to='/contact' className='link-item'>
 									<div><i className="far fa-envelope-open"></i> Contact</div>
-								</NavTab>
-								{/* <NavTab to='/contact1' className='link-item'>
-									<div><i className="far fa-envelope-open"></i> Contact 1</div>
-								</NavTab>
-								<NavTab to='/contact2' className='link-item'>
-									<div><i className="far fa-envelope-open"></i> Contact 2</div>
-								</NavTab>
-								<NavTab to='/contact3' className='link-item'>
-									<div><i className="far fa-envelope-open"></i> Contact 3</div>
 								</NavTab> */}
 							</RoutedTabs>
 							<div className="collection">
@@ -102,6 +97,7 @@ class SideNav extends Component {
 							<Route exact path='/home' component={Home} />
 							<Route path='/contact' component={Contact} />
 							<Route path='/project' component={Project} />
+							<Route path='/resume' component={Resume} />
 							<Route>
 								<Redirect to='/home' />
 							</Route>

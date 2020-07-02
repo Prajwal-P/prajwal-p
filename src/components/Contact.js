@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 
-export default class Contact extends Component{
-	constructor(props){
+export default class Contact extends Component {
+	constructor(props) {
 		super(props);
 		this.state = {};
 	}
 
-	render(){
-		return(
+	render() {
+		return (
 			<React.Fragment>
-				<h1>Contact Page</h1>
+				<div className='division'>
+					<form>
+						
+					</form>
+				</div>
 			</React.Fragment>
 		)
 	}
