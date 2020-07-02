@@ -1,0 +1,28 @@
+.resume{
+	margin: 1rem auto;
+	width: 100%;
+	// display: block;
+
+	.underline{
+		text-decoration: underline $secondary-color;
+	}
+	img{
+		width: 95%;
+		margin: 1rem auto;
+		display: block;
+	}
+	button{
+		display: block;
+		margin: 2rem auto 3rem;
+		line-height: 2rem;
+		padding: 1px 10px;
+		border-radius: 1rem;
+		background-color: darken($primary-color, 2);
+		border: 2px $secondary-color solid;
+		
+		a{
+			text-decoration: none;
+			color: $font-color;
+		}
+	}
+}
