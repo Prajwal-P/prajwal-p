@@ -21,6 +21,17 @@
 	.main{
 		margin-left: 0 !important;
 	}
+	.resume{
+		img{
+			width: 95%;
+			margin: 1rem auto;
+			display: block;
+		}
+
+		iframe{
+			display: none;
+		}
+	}
 }
 
 @include mediaMd{
@@ -45,6 +56,17 @@
 
 	.main{
 		margin-left: 0 !important;
+	}
+	.resume{
+		img{
+			width: 95%;
+			margin: 1rem auto;
+			display: block;
+		}
+
+		iframe{
+			display: none;
+		}
 	}
 }
 
@@ -71,6 +93,17 @@
 	.main{
 		margin-left: 0 !important;
 	}
+	.resume{
+		img{
+			width: 95%;
+			margin: 1rem auto;
+			display: block;
+		}
+
+		iframe{
+			display: none;
+		}
+	}
 }
 
 @include mediaXl{
@@ -88,13 +121,22 @@
 		width: calc(100vw - 360px) !important;
 
 		.img-wrapper{
-			display: flex !important;
-			flex-direction: row;
-			justify-content: space-evenly !important;
+			// display: flex !important;
+			// flex-direction: row;
+			// justify-content: space-evenly !important;
 
-			img{
-				width: 40% !important;
-			}
+			// img{
+			// 	width: 40% !important;
+			// }
+			display: none;
+		}
+
+		iframe{
+			width: inherit;
+			height: calc(100vh - 100px);
+		}
+		button{
+			display: none !important;
 		}
 	}
 }

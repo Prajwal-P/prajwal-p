@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import page1 from '../Assets/Prajwal P 01.jpg';
 import page2 from '../Assets/Prajwal P 02.jpg';
-import CV from '../Assets/Prajwal.pdf'
+import CV from '../Assets/Prajwal P.pdf'
 
 export default class Resume extends Component{
 	render(){
@@ -13,6 +13,7 @@ export default class Resume extends Component{
 						<img src={page1} alt='My resume page 1' />
 						<img src={page2} alt='My resume page 2' />
 					</div>
+					<iframe title='Resume' src={CV} type='application/pdf' frameBorder='0'></iframe>
 					<button><a href={CV} download='Prajwal P'>Download Resume</a></button>
 				</div>
 			</React.Fragment>
