@@ -45,7 +45,8 @@
 
 <details>
 	<summary>:zap: Recent GitHub Activity</summary>
-	<!--START_SECTION:activity-->
+	
+<!--START_SECTION:activity-->
 1. ❗️ Opened issue [#4820](https://github.com//timburgan/timburgan/issues/4820) in [timburgan/timburgan](https://github.com//timburgan/timburgan)
 2. 🎉 Merged PR [#1](https://github.com//Prajwal-P/Stock-Market-WebApp/pull/1) in [Prajwal-P/Stock-Market-WebApp](https://github.com//Prajwal-P/Stock-Market-WebApp)
 3. 💪 Opened PR [#1](https://github.com//Prajwal-P/Stock-Market-WebApp/pull/1) in [Prajwal-P/Stock-Market-WebApp](https://github.com//Prajwal-P/Stock-Market-WebApp)
