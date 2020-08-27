@@ -44,16 +44,9 @@
 ---
 
 <details>
-	<summary>:zap: Recent Github Activity</summary>
-
-	<img align="left" alt="Prajwal's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prajwal-p&layout=compact" />
-
-</details>
-
-<details>
 	<summary>:zap: Github Stats</summary>
 
-	<!--START_SECTION:activity-->
+	<img align="left" alt="Prajwal's Github Stats" src="https://github-readme-stats.vercel.app/api?username=prajwal-p&show_icons=true&theme=buefy" />
 
 </details>
 
