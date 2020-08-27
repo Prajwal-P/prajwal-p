@@ -2,7 +2,7 @@
 
 ### [Portfolio][website]
 
-## I'm a Tech Enthusiast and Developer
+## I'm a Tech Enthusiast and Full Stack Developer
 
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to for job opportunities where i can develop my skills
