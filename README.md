@@ -48,10 +48,10 @@
 	
 <!--START_SECTION:activity-->
 1. ❗️ Opened issue [#4820](https://github.com//timburgan/timburgan/issues/4820) in [timburgan/timburgan](https://github.com//timburgan/timburgan)
-2. 🎉 Merged PR [#1](https://github.com//Prajwal-P/Stock-Market-WebApp/pull/1) in [Prajwal-P/Stock-Market-WebApp](https://github.com//Prajwal-P/Stock-Market-WebApp)
-3. 💪 Opened PR [#1](https://github.com//Prajwal-P/Stock-Market-WebApp/pull/1) in [Prajwal-P/Stock-Market-WebApp](https://github.com//Prajwal-P/Stock-Market-WebApp)
-4. 🎉 Merged PR [#1](https://github.com//Prajwal-P/InternetTimeline/pull/1) in [Prajwal-P/InternetTimeline](https://github.com//Prajwal-P/InternetTimeline)
-5. 💪 Opened PR [#2](https://github.com//Revanthpn/CG-mini-project/pull/2) in [Revanthpn/CG-mini-project](https://github.com//Revanthpn/CG-mini-project)
+2. 🎉 Merged PR [#1](https://github.com//Prajwal-P/InternetTimeline/pull/1) in [Prajwal-P/InternetTimeline](https://github.com//Prajwal-P/InternetTimeline)
+3. 💪 Opened PR [#2](https://github.com//Revanthpn/CG-mini-project/pull/2) in [Revanthpn/CG-mini-project](https://github.com//Revanthpn/CG-mini-project)
+4. 🎉 Merged PR [#17](https://github.com//Prajwal-P/CG-mini-project/pull/17) in [Prajwal-P/CG-mini-project](https://github.com//Prajwal-P/CG-mini-project)
+5. 💪 Opened PR [#17](https://github.com//Prajwal-P/CG-mini-project/pull/17) in [Prajwal-P/CG-mini-project](https://github.com//Prajwal-P/CG-mini-project)
 <!--END_SECTION:activity-->
 </details>
 
