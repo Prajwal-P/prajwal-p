@@ -47,11 +47,11 @@
 	<summary>:zap: Recent GitHub Activity</summary>
 	
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#33](https://github.com//Prajwal-P/Blood-bank/pull/33) in [Prajwal-P/Blood-bank](https://github.com//Prajwal-P/Blood-bank)
-2. 💪 Opened PR [#33](https://github.com//Prajwal-P/Blood-bank/pull/33) in [Prajwal-P/Blood-bank](https://github.com//Prajwal-P/Blood-bank)
-3. 🎉 Merged PR [#32](https://github.com//Prajwal-P/Blood-bank/pull/32) in [Prajwal-P/Blood-bank](https://github.com//Prajwal-P/Blood-bank)
-4. 💪 Opened PR [#32](https://github.com//Prajwal-P/Blood-bank/pull/32) in [Prajwal-P/Blood-bank](https://github.com//Prajwal-P/Blood-bank)
-5. ❗️ Opened issue [#4820](https://github.com//timburgan/timburgan/issues/4820) in [timburgan/timburgan](https://github.com//timburgan/timburgan)
+1. 🎉 Merged PR [#33](https://github.com/Prajwal-P/Blood-bank/pull/33) in [Prajwal-P/Blood-bank](https://github.com/Prajwal-P/Blood-bank)
+2. 💪 Opened PR [#33](https://github.com/Prajwal-P/Blood-bank/pull/33) in [Prajwal-P/Blood-bank](https://github.com/Prajwal-P/Blood-bank)
+3. 🎉 Merged PR [#32](https://github.com/Prajwal-P/Blood-bank/pull/32) in [Prajwal-P/Blood-bank](https://github.com/Prajwal-P/Blood-bank)
+4. 💪 Opened PR [#32](https://github.com/Prajwal-P/Blood-bank/pull/32) in [Prajwal-P/Blood-bank](https://github.com/Prajwal-P/Blood-bank)
+5. ❗️ Opened issue [#4820](https://github.com/timburgan/timburgan/issues/4820) in [timburgan/timburgan](https://github.com/timburgan/timburgan)
 <!--END_SECTION:activity-->
 </details>
 
