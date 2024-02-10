@@ -3,26 +3,26 @@ import Card from './Card';
 import Skill from './Skill';
 
 export default class Home extends Component {
-	constructor(props){
+	constructor(props) {
 		super(props);
 		this.state = {};
 	}
 
-	render(){
-		return(
+	render() {
+		return (
 			<React.Fragment>
 				<div className='division'>
 					<h2 className='underline'>Education</h2>
 					<Card name='Bangalore Institute of Technology'
-						time='August 2017 - Present'
-						marks='7.69 CGPA'
+						time='2021'
+						marks='7.91 CGPA'
 						type='B. E, Computer Science' />
 					<Card name='Karkala JnanaSudha P.U College'
-						time='June 2015 - March 2017'
+						time='2017'
 						marks='Class XII 89.6%'
 						type='Secondary High school, PCMC' />
 					<Card name='M.E.S Kishora Kendra'
-						time='May 2012 - April 2015'
+						time='2015'
 						marks='Class X 91.2%'
 						type='High School' />
 				</div>
@@ -39,9 +39,6 @@ export default class Home extends Component {
 						<Skill name='C/C++' />
 						<Skill name='C#' />
 						<Skill name='Git' />
-						{/* <Skill name='React'/>
-						<Skill name='React'/>
-						<Skill name='React'/> */}
 					</div>
 				</div>
 				<div className='division'>
