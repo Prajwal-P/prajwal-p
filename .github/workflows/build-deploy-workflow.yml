@@ -22,17 +22,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: ls
       - run: yarn install --frozen-lockfile
-      - run: ls
       - run: yarn build
-      - run: ls
       - run: yarn test
-      - run: ls
-      # - uses: actions/upload-artifact@master
-      #   with:
-      #     name: my-artifact
-      #     path: path/to/artifact
 
   deploy:
     # if: github.ref == 'refs/heads/master'
@@ -40,4 +32,5 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v3
+      - run: yarn install
       - run: yarn deploy
