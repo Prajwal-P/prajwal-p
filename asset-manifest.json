@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/prajwal-p/static/css/main.c89a8f7f.css",
+    "main.js": "/prajwal-p/static/js/main.515d994c.js",
+    "static/media/Prajwal P 01.jpg": "/prajwal-p/static/media/Prajwal P 01.c712b181cc7be482e8c9.jpg",
+    "static/media/Prajwal P 02.jpg": "/prajwal-p/static/media/Prajwal P 02.f37882c957bf41edf4ed.jpg",
+    "static/media/Airplane.png": "/prajwal-p/static/media/Airplane.6c8ddfb70e8609eeca56.png",
+    "static/media/background.jpg": "/prajwal-p/static/media/background.ddf4064b230a5f7f627b.jpg",
+    "static/media/BloodBank.jpg": "/prajwal-p/static/media/BloodBank.be48b035f53333fe2ed8.jpg",
+    "static/media/Prajwal P.pdf": "/prajwal-p/static/media/Prajwal P.97b06ea598378568c0a5.pdf",
+    "static/media/TicTacToe.png": "/prajwal-p/static/media/TicTacToe.830c175c812fd04c0432.png",
+    "static/media/profile-pic.jpg": "/prajwal-p/static/media/profile-pic.f62332dbfb1621d5a19c.jpg",
+    "index.html": "/prajwal-p/index.html",
+    "main.c89a8f7f.css.map": "/prajwal-p/static/css/main.c89a8f7f.css.map",
+    "main.515d994c.js.map": "/prajwal-p/static/js/main.515d994c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c89a8f7f.css",
+    "static/js/main.515d994c.js"
+  ]
+}
