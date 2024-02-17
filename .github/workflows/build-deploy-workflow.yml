@@ -30,7 +30,7 @@ jobs:
       - run: npm test
 
   deploy:
-    if: github.ref == 'refs/heads/master' && ${{ github.event.pull_request.merged }}
+    if: github.ref == 'refs/heads/master' && github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     needs: build
     steps:
