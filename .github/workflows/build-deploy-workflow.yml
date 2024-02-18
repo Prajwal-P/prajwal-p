@@ -33,4 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: yarn install
-      - run: yarn deploy
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          yarn deploy
