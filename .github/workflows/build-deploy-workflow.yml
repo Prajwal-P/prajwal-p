@@ -24,7 +24,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - if: github.ref == 'refs/heads/master'
+      - if: github.ref != 'refs/heads/master'
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
@@ -34,7 +34,7 @@ jobs:
       - run: yarn test
 
   deploy:
-    if: github.ref == 'refs/heads/master'
+    # if: github.ref == 'refs/heads/master'
     needs: build
     permissions:
       pages: write
