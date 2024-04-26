@@ -6,7 +6,7 @@ const TimelineItem = ({ data }) => (
 		{data.roles.map((role, idx) => {
 			return (
 				<div key={idx} className='role'>
-					<i class="fa-solid fa-location-arrow"></i>
+					<i className="fa-solid fa-location-arrow"></i>
 					<h4 className='designation'>{role.designation}</h4>
 					<h4>{role.period}</h4>
 					<ul>
