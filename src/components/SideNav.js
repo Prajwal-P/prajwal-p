@@ -51,6 +51,9 @@ class SideNav extends Component {
 					<div className='nav-bar'>
 						<h1>Prajwal P</h1>
 					</div>
+					{/* Intentionally keeping menu button outside of nav-bar because,
+						in mobile devices when side-nav is opened nav-bar should be hidden
+						and the menu button should be displayed */}
 					<div className="menu-btn" onClick={this.showMenu}>
 						<div className="btn-line"></div>
 						<div className="btn-line"></div>

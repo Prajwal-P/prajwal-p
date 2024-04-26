@@ -1,6 +1,6 @@
 @include mediaSm{
 	.side-nav{
-		width: 100vw !important;
+		width: 100% !important;
 		background-color: darken($primary-color, 5) !important;
 		position: fixed;
 		
@@ -20,6 +20,7 @@
 
 	.main{
 		margin-left: 0 !important;
+		padding: 0 2rem !important;
 	}
 	.resume{
 		img{
@@ -36,7 +37,7 @@
 
 @include mediaMd{
 	.side-nav{
-		width: 100vw !important;
+		width: 100% !important;
 		background-color: darken($primary-color, 5) !important;
 		position: fixed;
 		
@@ -72,7 +73,7 @@
 
 @include mediaLg{
 	.side-nav{
-		width: 100vw !important;
+		width: 100% !important;
 		background-color: darken($primary-color, 5) !important;
 		position: fixed;
 		
@@ -83,8 +84,8 @@
 			transform: translate3d(0, 0, 0);
 		}
 
-		.profile{
-			img{
+		.profile {
+			img {
 				width: 150px !important;
 			}
 		}
@@ -113,7 +114,8 @@
 	.menu-btn{
 		visibility: hidden;
 	}
-	.main{
+
+	.main {
 		margin-top: 0 !important;
 		margin-left: 300px;
 	}

@@ -6,6 +6,8 @@
 @import './project';
 @import './contact';
 @import './resume';
+@import './timeline';
+@import './timelineItem';
 // @import './menu-btn';
 
 body {
@@ -14,7 +16,7 @@ body {
 	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 
-	 &:after {
+	&:after {
 		content: '';
 		position: fixed;
 		top: 0;
@@ -41,7 +43,7 @@ h1{
 	line-height: 54px;
 	// border-bottom: 2px $secondary-color solid;
 	position: fixed;
-	z-index: 1;
+	z-index: 200;
 
 	// &.show{
 	// 	 position: relative;
@@ -57,7 +59,7 @@ h1{
 // Menu Button
 .menu-btn {
 	position: fixed;
-	z-index: 10;
+	z-index: 256;
 	right: 20px;
 	top: 20px;
 	cursor: pointer;
@@ -80,7 +82,7 @@ h1{
 		transform: rotate(180deg);
 
 		.btn-line {
-		// Line 1 - Rotate
+			// Line 1 - Rotate
 			&:nth-child(1) {
 				transform: rotate(45deg) translate(5px, 5px);
 			}
@@ -106,7 +108,7 @@ h1{
 	position: fixed;
 	// position: absolute;
 	color: $font-color;
-	z-index: 5;
+	z-index: 250;
 	overflow-y: auto;
 	
 	.profile{
@@ -190,7 +192,7 @@ h1{
 	margin-top: 60px;
 	top: 0;
 	position: absolute;
-	padding: 0 1rem;
+	padding: 0 5rem;
 	color: $font-color;
 	
 	&.no-scroll{
@@ -198,4 +200,3 @@ h1{
 		overflow: hidden !important;
 	}
 }
-
