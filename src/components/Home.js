@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Card from './Card';
-import Skill from './Skill';
+import Card from './Card.js';
+import Skill from './Skill.js';
+import Timeline from './Timeline.js';
+import { experienceData } from './ExperienceData.js'
 
 export default class Home extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
 
 	render() {
 		return (
@@ -16,11 +14,7 @@ export default class Home extends Component {
 				</div>
 				<div className='division'>
 					<h2 className='underline'>Experience</h2>
-					<h3>Papple Technologies</h3>
-					<ul>
-						<li>Developed a web app where students can attend quiz and prepare for exams</li>
-						<li><span className='underline bold'>Tools:</span> Reactjs, Nodejs, MySQL, Visual Studio Code</li>
-					</ul>
+					<Timeline data={experienceData} />
 				</div>
 				<div className='division'>
 					<h2 className='underline'>Skills</h2>

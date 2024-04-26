@@ -1,0 +1,51 @@
+.timeline-item {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+	h3,
+	h4,
+	p {
+		margin: 0px;
+	}
+
+	&::before {
+		content: ' ';
+		background-color: #fff;
+		box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+		position: relative;
+		right: 25px;
+		top: 20px;
+		transform: rotate(45deg);
+		width: 15px;
+		height: 15px;
+		z-index: 1;
+	}
+
+	.company-name {
+		padding: 2px;
+	}
+
+	.role {
+		margin: 0px 25px;
+
+		h4 {
+			font-style: italic;
+			font-weight: normal !important;
+			color: lighten($primary-color, 40);
+		}
+
+		i {
+			display: inline-flex;
+			position: relative;
+			left: -23px;
+			top: 20px;
+			transform: rotate(42deg);
+			width: 15px;
+			height: 15px;
+			z-index: 1;
+		}
+
+	}
+}
