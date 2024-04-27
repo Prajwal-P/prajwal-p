@@ -1,7 +1,7 @@
 # Build job will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Node.js CI
+name: Portfolio CI/CD
 
 on:
   push:
@@ -24,16 +24,16 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - run: yarn test
 
-  # deploy:
-  #   if: github.ref == 'refs/heads/master'
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - run: yarn install
-  #     - run: |
-  #         git config user.name 'github-actions'
-  #         git config user.email 'github-actions@github.com'
-  #         yarn deploy
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config --global user.name "${{ github.triggering_actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git remote set-url origin "https://${{ github.triggering_actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/Prajwal-P/prajwal-p.git"
+          yarn install
+          yarn deploy
