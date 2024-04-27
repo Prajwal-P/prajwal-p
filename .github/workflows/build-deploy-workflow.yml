@@ -43,14 +43,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
     # steps:
-    #   - uses: actions/checkout@v3
-    #   - run: yarn install
-    #   - run: |
-    #       git config user.name 'github-actions'
-    #       git config user.email 'github-actions@github.com'
-    #       yarn deploy
+    #   - name: Deploy to GitHub Pages
+    #     id: deployment
+    #     uses: actions/deploy-pages@v3
+    steps:
+      - uses: actions/checkout@v3
+      - run: yarn install
+      - run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          yarn deploy
