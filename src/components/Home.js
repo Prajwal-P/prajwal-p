@@ -19,15 +19,22 @@ export default class Home extends Component {
 				<div className='division'>
 					<h2 className='underline'>Skills</h2>
 					<div className='h-center'>
-						<Skill name='Reactjs' />
+						<Skill name='TypeScript' />
+						<Skill name='JavaScript' />
+						<Skill name='C#' />
+						<Skill name='Python' />
 						<Skill name='Nodejs' />
-						<Skill name='JS' />
+						<Skill name='AWS' />
+						<Skill name='Docker' />
+						<Skill name='Kubernetes' />
+						<Skill name='Snowflake' />
+						<Skill name='NewRelic' />
+						<Skill name='SumoLogic' />
+						<Skill name='Reactjs' />
 						<Skill name='HTML' />
 						<Skill name='CSS' />
-						<Skill name='Python' />
 						<Skill name='Java' />
 						<Skill name='C/C++' />
-						<Skill name='C#' />
 						<Skill name='Git' />
 					</div>
 				</div>
