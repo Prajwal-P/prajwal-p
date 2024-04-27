@@ -3,6 +3,7 @@ import Card from './Card.js';
 import Skill from './Skill.js';
 import Timeline from './Timeline.js';
 import { experienceData } from './ExperienceData.js'
+import { skills } from './SkillsList.js'
 
 export default class Home extends Component {
 
@@ -19,16 +20,7 @@ export default class Home extends Component {
 				<div className='division'>
 					<h2 className='underline'>Skills</h2>
 					<div className='h-center'>
-						<Skill name='Reactjs' />
-						<Skill name='Nodejs' />
-						<Skill name='JS' />
-						<Skill name='HTML' />
-						<Skill name='CSS' />
-						<Skill name='Python' />
-						<Skill name='Java' />
-						<Skill name='C/C++' />
-						<Skill name='C#' />
-						<Skill name='Git' />
+						{skills.map((skill, idx) => <Skill key={idx} name={skill} />)}
 					</div>
 				</div>
 				<div className='division'>
