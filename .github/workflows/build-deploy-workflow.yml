@@ -51,9 +51,11 @@ jobs:
       - uses: actions/checkout@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           echo $GITHUB_TRIGGERING_ACTOR
           git config --global user.name "Prajwal-P"
           git config --global user.email "prajwal72p@gmail.com"
+          git remote set-url origin "https://Prajwal-P:${{ secrets.GITHUB_TOKEN }}@github.com/Prajwal-P/prajwal-p.git"
           yarn install
           yarn deploy
