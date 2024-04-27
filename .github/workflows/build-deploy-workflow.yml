@@ -50,8 +50,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          git config --global user.name "Prajwal-P"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://Prajwal-P:${{ secrets.GITHUB_TOKEN }}@github.com/Prajwal-P/prajwal-p.git"
+          git config --global user.name "${{ github.triggering_actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git remote set-url origin "https://${{ github.triggering_actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/Prajwal-P/prajwal-p.git"
           yarn install
           yarn deploy
