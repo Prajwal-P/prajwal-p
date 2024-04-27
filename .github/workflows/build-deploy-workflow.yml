@@ -49,8 +49,7 @@ jobs:
     #     uses: actions/deploy-pages@v3
     steps:
       - uses: actions/checkout@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: yarn install
-      - run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          yarn deploy
+      - run: yarn deploy
