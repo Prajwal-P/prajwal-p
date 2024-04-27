@@ -52,7 +52,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          echo "{$github.triggering_actor}"
+          echo "$GITHUB_TRIGGERING_ACTOR"
+          git config --global user.name ${{ github.triggering_actor }}
           yarn install
           yarn deploy
