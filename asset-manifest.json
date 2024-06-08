@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prajwal-p/static/css/main.c7626495.css",
-    "main.js": "/prajwal-p/static/js/main.f5510c32.js",
+    "main.js": "/prajwal-p/static/js/main.f9dc85bf.js",
     "static/media/Prajwal P 01.jpg": "/prajwal-p/static/media/Prajwal P 01.c712b181cc7be482e8c9.jpg",
     "static/media/Prajwal P 02.jpg": "/prajwal-p/static/media/Prajwal P 02.f37882c957bf41edf4ed.jpg",
     "static/media/Airplane.png": "/prajwal-p/static/media/Airplane.6c8ddfb70e8609eeca56.png",
@@ -12,10 +12,10 @@
     "static/media/profile-pic.jpg": "/prajwal-p/static/media/profile-pic.f62332dbfb1621d5a19c.jpg",
     "index.html": "/prajwal-p/index.html",
     "main.c7626495.css.map": "/prajwal-p/static/css/main.c7626495.css.map",
-    "main.f5510c32.js.map": "/prajwal-p/static/js/main.f5510c32.js.map"
+    "main.f9dc85bf.js.map": "/prajwal-p/static/js/main.f9dc85bf.js.map"
   },
   "entrypoints": [
     "static/css/main.c7626495.css",
-    "static/js/main.f5510c32.js"
+    "static/js/main.f9dc85bf.js"
   ]
 }
