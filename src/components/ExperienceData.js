@@ -1,3 +1,5 @@
+import { DateTime } from "luxon";
+
 export const experienceData = [
     {
         name: 'Cimpress',
@@ -5,7 +7,10 @@ export const experienceData = [
             {
                 designation: 'Senior Software Engineer',
                 period: 'Apr 2024 - Present',
-                description: [],
+                description: [
+                    `This is a fascinating new experience that started around ${Math.floor(DateTime.now().diff(DateTime.fromISO('2024-04-01'), 'months').months)} months back.`,
+                    'I\'m getting to explore more, make decisions and understand our products more.'
+                ],
             },
             {
                 designation: 'Software Engineer',
