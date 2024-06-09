@@ -47,11 +47,11 @@
 	<summary>:zap: Recent GitHub Activity</summary>
 	
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#23](https://github.com/Prajwal-P/prajwal-p/pull/23) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
-2. 💪 Opened PR [#23](https://github.com/Prajwal-P/prajwal-p/pull/23) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
-3. 🎉 Merged PR [#22](https://github.com/Prajwal-P/prajwal-p/pull/22) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
-4. 💪 Opened PR [#22](https://github.com/Prajwal-P/prajwal-p/pull/22) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
-5. 🎉 Merged PR [#20](https://github.com/Prajwal-P/prajwal-p/pull/20) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
+1. 🎉 Merged PR [#26](https://github.com/Prajwal-P/prajwal-p/pull/26) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
+2. 💪 Opened PR [#26](https://github.com/Prajwal-P/prajwal-p/pull/26) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
+3. 🎉 Merged PR [#25](https://github.com/Prajwal-P/prajwal-p/pull/25) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
+4. 🎉 Merged PR [#24](https://github.com/Prajwal-P/prajwal-p/pull/24) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
+5. 💪 Opened PR [#25](https://github.com/Prajwal-P/prajwal-p/pull/25) in [Prajwal-P/prajwal-p](https://github.com/Prajwal-P/prajwal-p)
 <!--END_SECTION:activity-->
 </details>
 
